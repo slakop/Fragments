@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Fragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_a_a">Fragment A A</string>
+    <string name="fragment_a_b">Fragment A B</string>
+    <string name="fragment_b_b">Fragment B B</string>
+    <string name="fragment_b_a">Fragment B A</string>
+    <string name="main_activity">Main Activity!</string>
+    <string name="open_activity_a">Open Activity A</string>
+    <string name="open_activity_b">Open Activity B</string>
+    <string name="activity_a">Activity A</string>
+    <string name="activity_b">Activity B</string>
+    <string name="fragment_a">Fragment A</string>
+    <string name="fragment_b">Fragment B</string>
+    <string name="open_fragment_aa">Open fragment AA</string>
+    <string name="open_fragment_a">Open fragment A</string>
+    <string name="open_fragment_ab">Open fragment AB</string>
+    <string name="open_fragment_bb">Open Fragment BB</string>
+    <string name="send_color">send Color</string>
 </resources>
