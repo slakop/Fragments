@@ -2,10 +2,10 @@
     <string name="app_name">Fragments</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="fragment_a_a">Fragment A A</string>
-    <string name="fragment_a_b">Fragment A B</string>
-    <string name="fragment_b_b">Fragment B B</string>
-    <string name="fragment_b_a">Fragment B A</string>
+    <string name="fragment_a_a">Fragment AA</string>
+    <string name="fragment_a_b">Fragment AB</string>
+    <string name="fragment_b_b">Fragment BB</string>
+    <string name="fragment_b_a">Fragment BA</string>
     <string name="main_activity">Main Activity!</string>
     <string name="open_activity_a">Open Activity A</string>
     <string name="open_activity_b">Open Activity B</string>

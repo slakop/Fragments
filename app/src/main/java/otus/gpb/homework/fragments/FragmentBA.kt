@@ -2,15 +2,30 @@ package otus.gpb.homework.fragments.fragments
 
 import android.content.res.Configuration
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.Button
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import otus.gpb.homework.fragments.R
+import otus.gpb.homework.fragments.databinding.FragmentABinding
+import otus.gpb.homework.fragments.databinding.FragmentBaBinding
 
 private const val KEY = "color"
 private const val REQUEST_KEY = "colorBundle"
-class FragmentBA : Fragment(R.layout.fragment_ba) {
+class FragmentBA : Fragment() {
+
+    private lateinit var binding: FragmentBaBinding
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        binding = FragmentBaBinding.inflate(inflater, container, false)
+        return binding.root
+    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -20,7 +35,7 @@ class FragmentBA : Fragment(R.layout.fragment_ba) {
             this.view?.setBackgroundColor(color)
         }
 
-        with(view.findViewById<Button>(R.id.openFragmentBB)) {
+        with(binding.openFragmentBB) {
 
             setOnClickListener {
                 parentFragmentManager.beginTransaction()

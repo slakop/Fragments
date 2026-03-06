@@ -7,17 +7,27 @@
     android:background="@color/black"
     tools:context=".fragments.FragmentAA">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/fragment_a_a" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        >
 
-    <Button
-        android:id="@+id/openFragmentAB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:text="@string/open_fragment_ab" />
+        <Button
+            android:id="@+id/openFragmentAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/open_fragment_ab" />
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_a_a"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black" />
+    </LinearLayout>
 </FrameLayout>
